@@ -1,0 +1,84 @@
+body {
+  font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+#game-container {
+  width: 40%;
+  margin-top: 600px;
+  margin-bottom: 50px;
+  font-family: "Roboto", sans-serif;
+  border: 2px solid black;
+  background-color: rgba(249, 235, 203, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#question-container {
+  margin-bottom: 20px;
+}
+
+#options-container button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+
+  margin: 0;
+}
+
+#game-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#question-container {
+  margin-bottom: 20px;
+}
+
+#options-container button {
+  /* width: 150px; */
+  margin: 5px;
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.2s linear;
+  font-size: 14px;
+  cursor: pointer;
+}
+#options-container button:hover {
+  box-shadow: 0 0 0 2px rgb(255, 255, 255), 0 0 0 2px #ffffff;
+}
+
+/* Добавляем стиль для фоновой картинки */
+#game-body {
+  background-image: url("background1.jpg"); /* Путь к изображению */
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+}
+#question-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#balance-wheel-chart {
+  margin-top: 5px; /* Отступ между вопросом и круговой диаграммой */
+}
+
+#return-button-container {
+  margin: 5px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 8px;
+  font-size: 14px;
+}
